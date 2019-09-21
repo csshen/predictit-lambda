@@ -21,7 +21,7 @@ const handles = ['realDonaldTrump', 'POTUS', 'VP', 'WhiteHouse'];
 
 app.get('/picount', picount);
 app.get('/stats', getStats);
-app.listen(process.env.PORT || 3000, () => console.log(`Running on port ${port}!`));
+app.listen(process.env.PORT || 3000, () => console.log('All is well'));
 
 
 function getStats(req, res) {
